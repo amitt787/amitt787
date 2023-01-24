@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>json</title>
+	
+</head>
+<body>
+	<p id="d1"></p> 
+<button onclick="fun1()">get 1 person details</button>
+<script type="text/javascript">
+		
+		function fun1(){
+			var Person={"age":25,"name":"amit","height":5.6}
+			str='';
+			str=str+Person.age+','+Person.name+','+Person.height;
+			document.getElementById('d1').innerHTML=str;
+			console.log(Person);
+
+		}
+
+	</script>
+</body>
+</html>
