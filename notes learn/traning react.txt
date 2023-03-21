@@ -1,0 +1,1414 @@
+React Js
+++++++++++++++++++++++++++
+
+8+ Fullstack developer
+front end and back end
+
+what is front-end?
+------------------------------------------------
+  user interacts (user interface)
+------------------------------------------------
+what is back-end?
+
+  server-side development mainly deals with databases,scripts and architecture
+
+what is full-stack?
+
+  comprises both front end and back end with the deployments
+
+Pre-requisites to learn React JS
+
+  => we need basics of HTML ,CSS
+  => basics of Javascript 
+
+
+Course Content 
+----------------------------------------------------
+Learn Javascript and React JS
+
+Topics covered in this course are as follows:
+
+1) Javascript
+2) React Introduction
+3) Environment Setup
+4) Essentials
+5) States and Props 
+6) React Hooks
+7) Router and Forms
+8) Styling in React JS
+9) Redux
+10) Important Topics
+11) Integrations 
+12) Real time Project using React JS
+
+Course duration : 2 Months
+class: Mon - Sat
+Time : 7:30 am(1.5 hrs)
+
+Advantages with Ashok IT
+++++++++++++++++++++++++++++++++++++++++++++++
+1) Live Online Training
+2) Soft Copy Material 
+3) doubts clarifications
+4) back up videos - 6 months access
+5) telegram group for communication
+6) Resume preparations
+7) Placement assistance 
+
+++++++++++++++++++++++++++++++++++++++++++++++
+
+you can check the complete details of this course
+ 
+https://ashokitech.com/react-js-online-training
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+What is React JS?
+
+react js is a javascript library for building user interfaces .it is the most popular front end development tool currently in use
+
+What are the advantages of React JS?
+
+-> Easy to write code and light weight 
+-> Reusable component based 
+   ex: login component for employee
+       users : agents,students 
+       Generic component login can be re-used for all type of        users -- reusable component
+-> Design simple views for your application
+-> Not too hard to learn 
+-> React makes it painless to create interactive UI's 
+
+what is the demand for React JS?
+
+  react js is one of the most demanded in market
+  some of the tech companies like paypal,netflix,facebook,ebay etc
+
+what is the demand for job opportunites?
+
+  naukri.com
+
+From tomorrow regular classes will be started 
+you can attend 3 classes for free
+using the same zoom link 
+
+
+what is javascript ? 
+
+   javascript is a programming language mainly scripting language which we can use to develop any type of application(Web development)
+   client side scripting language 
+
+   when you request for a webpage and you get a static content
+
+   when we request for a webpage we get a dynamic content 
+
+History of Javascript 
+
+  javascript is backward compatible 
+ 
+  1990 -> HTML, CSS , Webpage(static) 
+
+  1993 -> mosaic Netscape was commercialised 
+
+  Microsoft came up with Internet Explorer with Windows 
+
+  java was gaining poplurity 
+
+  Netscape hired brendien eide working on schema programming language
+
+  in 10 days a small language was developed and the name of the language was mocha , changed to LiveScript
+
+  Javascript -> Netscape Navigator2 
+
+  ---------------------------------------------------------------------------------------------------------------
+
+  Microsoft did  a reverse engineering ,developed a new language called JScript
+
+  Netscape went to ECMA -> basically to create standards 
+
+  ECMA -> European Computers Manufacturers Association 
+
+  ECMA Script rules 
+
+  1999 huge loss  then made Netscape as Opensource -> Mozilla 
+
+  ECMA SCRIPT 1 , .. 2 , ES -7 , ES -8 , ES 2015 , ES 2017 , ES 2021 
+
+----------------------------------------------------------------------------------------------------------------------
+
+ Jscript and Action Scripts were no more used 
+
+---------------------------------------------------------------------------------------------------------------------
+
+ javascript was interpreted language 
+
+   ->  in other whole code gets get compiled -> converted to machine undersandable -> executed
+   -> line by line execution is carrried out 
+
+google came up with Google Chrome (V8 engine for javascript) 
+
+  -> compiled and interpreted 
+  -> JIT (just in time compiler) 
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+  start to write the code and find a platform to run the javascript 
+
+  2021 and later all the browsers have come up with an engine 
+
+what are the options to write javascript code ?
+
+ -> Online Editors 
+ -> Offline Editors (Microsoft Visual Studio code) 
+ -> IDE(Integrated Development Environment) 
+
+Install Visual Studio Code 
+   -> install live-server extension 
+
+  Values and Variables 
+
+   value is a smallest unit of information that exist 
+
+   let firstName = "amazing";
+    -- variable named firstName is created in memory 
+   
+   -> used to store data
+   -> can be loaded as container
+
+     Rules for declaring variable names
+
+    -> must contain only letter,digit or $ and _ symbol
+    -> Must begin with a letter or _ (underscore)
+    -> it should not use any keywords like let , else;
+    -> Variables are case sensitive
+    -> Camel case 
+
+=========================================================================================
+
+      Data Types in Javascript 
+
+      There are 7 Primitive Data Types
+
+      1. Number -> Floating Point Numbers used for decimals and integers ex: let age=31
+
+
+      2. String : Sequence of characters ex: let firstName = "John"
+      3. Boolean : logical type that can be only true or false
+      4. Undefined : Value taken by a variable that is not yet defined 
+
+      5. Null : Also means empty value ;
+      6.Symbol(ES2015) : Value that is unique and cannot be changed
+      7. BigInt(ES2020): Larger Integers that Number type can hold
+
+    Strings
+       \ -> escape character to cancel special meaning 
+
+     javascript has dynamic typing 
+
+----------------------------------------------------------------------------------------------
+  let ,const and var 
+
+   let is one of the way for declaring variables
+
+   ES6
+
+   var is one of the way for declaring variables 
+
+   const  
+   
+   const birthYear = 1991;
+   let age = 31; 
+
+------------------------------------------------------------------------------------------
+  Operators
+  
+  An Operator is a symbol that represents an action or process 
+ 
+  let sum = 10+20;
+
+ -> Arithmetic Operators(+,-,*,/,%, **,++,--)
+ -> Assigment Operator (x=y, +=,-=, 
+ -> Comparison Operator( == , ===, != ,!==,>,<,>=,<= ) 
+ -> Logical Operator ( && logical AND(returns true if both conditions are true), || logical OR(returns true if one condition is met),! logical NOT)
+ -> Type Operator(typeof,instanceof)
+ -> Bitwise Operator(binary representation)(&,!,^,~,>>,<<)
+
+  == doesnt work with datatype of variable it only works with content
+  === works with content an data type as well 
+
+  Typeof Operator
+
+  -- typeof [ returns the type of variable]
+  -- instanceof[ Returns true if an object is instance of same object type(particular class),return is boolean)
+
+
+
+    Assignment1
+  
+  /*
+Mark and John are trying to compare their BMI (Body Mass Index), 
+which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both versions)
+3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
+TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
+GOOD LUCK ðŸ˜€
+*/ 
+
+//step1
+const heightMark = 1.69;
+const heightJohn = 1.95;
+const massJohn = 92;
+const massMark = 78;
+
+//step2 
+let BMIMark = massMark/heightMark ** 2;
+let BMIJohn = massJohn/(heightJohn * heightJohn);
+
+const markHigherBMI = BMIMark > BMIJohn ;
+
+console.log("Higher BMI ------",markHigherBMI);
+
+===================================================================================
+
+functions 
+
+ -- basic building blocks of real time javascript 
+
+modes in javascript 
+
+  - secure mode and unsecure mode
+  - strict mode
+
+  return the data as well
+
+Function declarations and Expressions 
+
+ function fruitProcessor(apples,oranges){
+    //console.log(apples,oranges);
+    const juice = `Juice with ${apples} and ${oranges}`;
+    return juice ;
+}
+
+  const calcAge = function(birthYear){
+    return  2037 - birthYear;
+}
+
+
+ ===Arrow Functions ==================
+
+  -> lot easier and faster to write
+  -> we dont need curly braces
+  -> return happens implicitly (no return keyword)
+
+    const yearsUntilRetirement = (birthYear,age) => {
+   // const age = 2037 - birthYear;
+    const retirementYears = (2037 - birthYear) - age;
+    return retirementYears;
+ }
+
+===================================================================
+
+ functions calling other functions
+
+  function cutPieces(fruit){
+    return fruit*4;
+  }
+  function fruitProcessor(apples,oranges){
+    const applePieces = cutPieces(apples);
+    const orangePieces = cutPieces(oranges);
+    const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of orange`;
+    return juice ;
+  }
+ -> Code Reusability 
+
+
+==============================================================================================
+
+  Arrays 
+
+  -> storing a list of items
+
+  -> Array is not a primitive data type 
+  -> Mutate Arrays
+  -> Whole Signature cannot be replaced with const 
+
+  Basic Operations on Array 
+
+   Adding Elements - push
+   Removing Elements -- pop
+
+   shift(remove the elements at beginning) and unshift(add elements at beginning) 
+
+   indexOf method and includes 
+
+==============================================================================================
+
+  Objects 
+
+  data [ firstName : john,lastName : schmed]
+
+  const data = { firstName : "John" , lastName :"Schmed" } 
+ 
+  { } -> Object literal syntax 
+
+  In arrays order matters a lot and how we access the elements 
+  in objects it is unstructured data 
+
+  Dot and Bracket Notation
+
+  .(object properties) and [](express evaluation)
+
+ how we can add property to object?
+ 
+  . and [] for adding 
+
+  access functions in objects
+  this reference
+
+==============================================================================================
+
+  Scope -> visibility of an element (variables,functions,objects)
+
+  Synchronous way of execution  
+
+  Callbacks(achieve Asynchronous way of programming)
+
+==========================================================================================
+
+ A callback function is a function that is passed as an argument to another function to be "called back" at a later time
+
+  The function which takes callback as argument is treated as higher -order functions
+
+  example(real time example)
+
+==================================================================================================
+
+  Object Oriented Programming 
+
+  objects is a data structure used as a container to store the data(property and value)
+
+  object oriented programming is a programming paradigm based on the concept of objects
+
+  objects are building blocks of applications and interact with one another 
+
+  Why does OOP exist?
+
+    -> it is very hard to maintain large code bases
+   
+    -> most widely used programming paradigm in large scale software engineering 
+
+  in Traditional OOP we can achieve this object concepts by classes (Blue print of objects)
+ 
+  User {
+    
+         userName
+         password
+         email
+         login(pwd){
+         }
+         sendMessage(str){
+         }
+   } 
+ ======================================================================================================
+ 
+  Prototype -- property
+
+  when we create functions,array,object , javascript engine adds a property inside a function,array,object.
+
+  Prototype property is basically an object where we can attach methods and properties 
+
+  Arrays ->  the operations associated with array is in my prototype object
+
+  defining any method using prototype keyword (prototype object) 
+
+
+====================================================================================================
+
+  Array is inherting the methods from Prototype Object 
+
+====================================================================================================
+
+  AJAX -> Asynchronous Javascript(callbacks) and XML
+
+  AJAX is not a programming language its a programming concept
+
+  => using callbacks we can acheive asynchronous way of programming 
+  => Application Programming Interface
+
+ -> Reads data from a web server after the page has loaded
+ -> Updates the page(Element Content) without reloading the page
+ -> send data to web server in the background
+
+  Approach 1: XMLHttpRequest Object to make Ajax call . XMLHttpRequest() 
+
+  Approach 2 : we will use jQuery to make an ajax calls .
+
+  Approach 3: fetch() API which is used to make XMLHttpRequest  .flexible structure 
+============================================================================================
+
+  Promises -> 
+ 
+ -> in callbacks there is a situtaion called callback hell(nesting the callbacks)
+ -> Promises are used to achieve asynchronous operation 
+
+  A promise is in one of the these states
+
+  -> Pending : Initial state
+  -> fulfilled : that operation was completed successfully
+  -> rejected  : that operation has failed 
+
+  Advantages of Promises
+
+ -> Improves Code Readability
+ -> Better handling of asynchronous operations
+ -> Better flow of control and better Error handling
+==========================================================================================
+Filter and Maps
+
+ filter() -> returns a new array containing the elements that passes a certain criteria
+
+ let oldArray = [];
+ let newArray = oldArray.filter(currentValue,index,array){
+ }
+
+ Map => if we want our resultant to be mapped to some values 
+
+==============================================================================================
+
+  Javascript Modules 
+ 
+ => was introduced in ES6 and later 
+ => splitting our code into seperate components 
+ => very easy to maintain and organize
+
+  exports and imports in javascript 
+
+ import {default as doubleUtil} from './utils.js';
+ import {double} from './utils.js';
+
+===============================================================================================
+
+  Crash Course on HTML and CSS
+
+  HTML => Hyper Text MarkUp Language 
+  => develop static pages
+  => content visibility 
+
+  invented by Sir Tim Berneers Lee in late 1990's
+
+  HTML as Document 
+  => Head Section  => describe the settings of my page 
+  => Body(Content) => content of the page 
+
+ HTML Elements => elements starting with open and close tags
+ Attributes => additional information about my element
+
+ ID => to be unique
+ Class => multiple
+
+ Apply space around Html element => padding
+
+ CSS Box Model => fundamental part of CSS how elements are displayed on web pages
+
+  Content : text ,images
+  Padding: area around the content
+  Border : goes aroung padding and content
+  Margin: space between boxes
+  Fill Area: area that gets filled with background-color
+
+=====================================================================================
+
+https://jsonplaceholder.typicode.com/
+
+  Using HTMl and CSS 
+  Create form -> inputs -> fetch apis
+  display on Ui(API Response)
+  Module1 ->fetch the data -> Module2
+  Module2 ->HTML 
+
+  build User Interfaces
+  React JS is a javascript library 
+
+  => splitting the code into seperate into functionalities
+  => Components 
+
+  Disadvantages
+
+  => create => manage => route 
+  => SEO => multipage => multiple pages = single page => only one page
+
+   Rendering => display HTML Elements 
+   DOM => Document Object Model = creates 
+
+   Virtual DOM
+
+   Add React to a Website â€“ React (reactjs.org)
+   
+   Visual Studio Code
+   Live Server
+   ES7-Enable
+
+   https://reactjs.org/docs/cdn-links.html
+
+   https://reactjs.org/docs/react-dom.html
+
+   https://reactjs.org/docs/dom-elements.html
+
+   https://babeljs.io/docs/en/
+
+   const element = <h1>Hello, world!</h1>;
+
+   JSX
+
+   Combine both HTML and javascript in one container called JSX
+
+   https://reactjs.org/docs/components-and-props.html
+
+  Components 
+ 
+ => very very simple and effective way of loading content into Single Page Application
+ => independent reusable pieces
+
+   Functional Components and Class Components
+
+   function(){
+   }
+
+   class content extends React.Component(){
+   }
+  => Functional Component with Properties(parameters)
+     Pure Functions 
+
+    Parent and Child Component
+
+  hierarchy => div(root) => div => h1(Header) => h4 => h1(Footer)
+
+  react 
+  react-dom
+
+  Virtual DOM 
+  using VS-CODE we have seen react app 
+  js -> createElement
+  ReactDOM.render()
+
+  React Component LifeCycle
+
+  Constructor -> Specific to class 
+  State => Change in Component 
+
+  Node and NPM
+
+  npx create-react-app sampleapp
+  localhost:3000 
+
+   https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
+  https://developer.mozilla.org/en-US/docs/web/css/flex
+
+  Bootstrap => Responsive Web Design 
+
+  mobile-first 
+
+ Screen Resolution : 1963 * 1000 => Element Size => 60 px
+
+ Screen Resolution : 1973 * 2000 => Element Size => 60px
+
+ Screen Resolution : 1563* 800 => Element Size => 60px
+
+ CSS Precedance => Inline -> Internal -> External
+
+ !important 
+
+  marquee tag will not work in all the browsers 
+ https://getbootstrap.com/docs/5.0/components/carousel/
+
+ 1368*725 => avoid flickering , blurring of images 
+
+ 12 columns => container 
+ small device will be having 12 columns => ? 1 image
+ medium device will be having 6 columns =? more width => 2 images
+ large device will be having 4 columns =? more width => 3 images 
+
+https://fonts.google.com/specimen/Open+Sans
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+     body {
+             font-family: "Sofia", sans-serif;
+          }
+
+ Font-Awesome icons 
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+==================================================================================================================================
+
+ React 
+
+ Public Folder
+ 1. static fonts
+ 2. images
+ 3. HTML files
+ 
+ React Project Dependencies
+
+  React and React DOM
+  npm install => install dependencies(real) node_modules
+
+  To add a dependency(package ) to the project
+
+  1. npm install <<packageName>> package.json => recommended
+  2. directly make changes in package .json (add dependency and version) 
+
+  dependency and dev dependency 
+
+  dependencies => react ,react-dom => nom install react
+
+  dev dependency => only used by developer 
+                    eslint, prittier,dayjs => format the code 
+
+  npm install --save-dev dayjs
+ 
+  Exports 
+
+  => Named Export
+  => Default Export 
+
+  useEffect
+  Functional Hooks
+  Hook Method and rules
+
+  React Fragment
+  
+  we can avoid dummy divs(parent elements) using React.Fragment 
+
+  3 ways
+  
+ 1. <React.Fragment>
+ 2. <Fragment> = Named Export 
+ 3. <> </>
+
+ React Props 
+ =================================================================
+
+ props can be used to pass data from parent to child component
+
+ attributes to Components
+
+ 1. Props can be destructured for easy usage
+ 2. Props can have default values
+ 3. Props will take default value as true if no value is passed
+ 4. Passing object as props , Spread Operator
+
+  destructuring of object in react 
+
+  const userData = { name:"Kumar", age:50 }
+
+  const {name,age} = userData;
+  
+  https://developer.mozilla.org/enUS/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+  Math.min(1,2,3); //1
+
+  let array = [1,2,3];
+ 
+  Math.min(array); // NaN
+
+  Math.min(...array) //1
+
+ 
+==========================================================================================
+ Conditional Rendering
+
+ Based on Some condition we want to show our content or not
+
+ 1. Show or Hide Component
+ 2. Implementing the Role Based Permission Level
+ 3. Toggling Functionalities(switch between components)
+
+  Once you have built the components 
+  
+  Comments
+  
+  README.md
+   1. What is the purpose of the component
+   2. what is props
+   3. does it handle errors 
+
+  Use of Story Book
+  https://storybook.js.org/docs/react/get-started/introduction
+
+ Situation
+
+  1. one situation is present so i have two results(outcomes)
+ 
+  => if operator =>login => execute UserGreeting else GuestGreeting (if )
+  conditional operator ternary 
+
+  => condition ? if true this will return: if false this will return 
+
+  2. logical AND (&&)  -- only one expected result
+
+     const value = true && "license";
+
+     age>18 && <DrivingLicense/>
+
+     true && true => true
+     false && true => false
+     true && false => false
+     false && false => false
+
+==================================================================================
+    React Events 
+
+    <button onclick="onButtonClick()">Click Me</button>
+    <script>
+    function onButtonClick(){
+       console.log("button is clicked")
+    }
+    </script>
+
+    JSX
+    <button onClick={onButtonClick} > Click Me </button>
+
+=================================================================================
+
+    React List and keys
+
+    <ul> 
+       <li>1</li>
+       <li>2</li>
+       <li>3</li>
+    </ul>
+
+    const numbers = [1,2,3,4,5]              // [2,4,6,8,10]
+
+    const doubleArray = numbers.map((number) => number*2);
+
+    ? -> Optional Chaining
+    if value exists complete the operation
+    if value doesnt exist do the next operation
+
+   Keys
+    
+   => to identify which items have been changed,added,removed from a list
+   => Keys should given for elements inside an array 
+
+====================================================================================
+  React Hooks
+
+  Function Components 
+             => one way (props) 
+  Class Components
+             => state and life cycle methods 
+
+ class Form extends React.Component{
+   // ability to use state and lifecycle
+ }
+ 
+ function Display(){ => Static Component
+ }
+ 
+  React Lifecycle Methods
+  Mounting => While Rendering the Component
+  Updating => State Update ,ex: counter update
+  UnMounting => remove the component from dom
+
+  componentDidMount(){
+  //
+  }
+  componentDidUpdate(){
+   //
+  }
+  componentWillUnmount(){
+   // 
+  }
+
+  disadv: mess up the code btw lifecycle methods
+
+  making the functions dynamic through "Hooks"
+ 
+  Hooks are nothing but functions that let you "hook into" React features(react state and   lifecycle) in functional component
+
+  Hooks was introduced in 16.8 versions
+
+  React useState Hook 
+
+  state => moving,stopped,paused,updated 
+
+  const [count,setCount] = useState(0);
+
+  const arrayRef = useState(0);
+  const count = arrayRef[0];
+  const setCount = arrayRef[1];
+
+  count = count+1; //not valid 
+
+  in useState() => not providing any value default is undefined
+
+ 1. Dont directly modify or change the state should go through setCount methods only
+
+   setCount(count + 1);//0+1//re-render
+   setCount(count + 1);
+
+  by the time state is getting updated (count ) and re-render again an instance of update state is called so react doesnt consider the previous value .it will take the initial value only
+
+ setCount((previousCount)=>previousCount+1);
+
+===============================================================================================
+
+ React useEffect Hook
+
+ Lifecycle methods we are using useEffect hook
+
+ componentDidMount(){  
+  // useEffect(() =>{
+        console.log("Mounting using useEffect()..")
+    })
+  }
+  componentDidUpdate(){
+   //  useEffect(() =>{
+         console.log("count state variable has been modified")
+    },[count])
+  }
+  componentWillUnmount(){
+   // try{
+          //filereader
+         //exception
+    }catch(){
+          close
+         //catch the block
+     }
+   finally{ 
+       close the file reader
+    }
+   //Memory leak 
+
+   => Release the resources used by my component (file reader,socket connection)
+   useEffect(() =>{
+        WebSocket.OPEN()
+
+         console.log("count state variable has been modified");
+
+        return()=> WebSocket.disconnect();
+    },[count])
+
+  }
+ we can achieve all this using useEffect Hook
+
+ Fetch is a browser api => used to make API Calls
+
+ await and async is not supported directly in react
+  
+ Await is in an async function to ensure that all promises that are returned in the function
+ are synchronized . 
+
+======================================================================================
+
+ Axios 
+
+  https://www.npmjs.com/package/axios
+  https://jsonplaceholder.typicode.com/posts
+
+  https://jsonplaceholder.typicode.com/users
+
+  https://jsonplaceholder.typicode.com/comments
+
+  Onclick API Calls => manipulate the content based on API data 
+
+=============================================================================================
+
+ How to create own Custom Hook?
+
+  1. Name of the hook should be started with "use"+"Hook"=> useHook 
+     it should understand as hook and automatically check on this hook
+
+  2. Call the hooks at the top level, dont call hooks inside loops,conditional statements and      nested funstions . With this rule react ensures is hooks are called in the same order each      time when component re-renders
+
+  3. Hooks should be called from React Component or from Custom Hook
+
+
+     function Form() {
+        const [count,setCount] = useState(0);
+        return a+b;
+      }
+
+ custom hooks => pass as normal parameters (we call it as a normal function)
+
+ Task2: pass ContentType to customHook and display data based on contenttype in CustomHookData
+
+=================================================================================================
+
+ Till now we have seen passing data from parent to child via props 
+
+  Pass Data from Child to Parent is through Events 
+
+================================================================================================
+
+  React Error Boundary
+
+   <Header/> //error 
+   <Nav/>
+   <Main/>
+   <Footer/>
+
+   if there is error in header component whole component tree will be destroyed 
+
+   Class => error boundary =>getDeviceErrorFromProps() ,componentDidCatch()
+
+   Functional Hooks
+   => third party library 
+
+  npm i react-error-boundary
+
+  <ErrorBoundary>
+      <Header />
+  </ErrorBoundary>
+
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+  => Design like Amazon Header 
+
+  => https://react-bootstrap.netlify.app/components/navs/#rb-docs-content
+
+==============================================================================================
+
+import Button from 'react-bootstrap/Button'; //best option 
+
+// or less ideally
+import { Button } from 'react-bootstrap';
+================================================================================
+
+  React Routing 
+---------------------------------------------
+
+  Routing(redirect) to particular component based on the user requirement
+  we are not refreshing the web page only re-rendering the particular component
+  
+ install third party library 
+ react-router-dom
+
+ npm i react-router-dom
+
+  <BrowserRoute>
+     <Routes>
+        <Route path="" element={}/>
+                     /{url}  which component
+        <Route path="" element={}/>
+     </Routes>
+ </BrowserRoute>
+
+   we need to wrap react app with Browser Router so that our application ensures for Routing
+   Routes ia parent which holds al the route
+   Route is a children of Routes .we can have 'n' Route 
+
+Task: Add a Image in NotFound Component
+===============================================================================================
+
+  Nested Routing 
+    <Routes>
+        <Route path="" element={}> //https://jsonplaceholder.typicode.com/posts
+           <Route /> // https://jsonplaceholder.typicode.com/posts/{id}
+        </Route>
+                   
+     </Routes>
+
+     <Posts> <Post/> </Posts> //render like this
+
+   * ====> Outlet will act like a placeholder ,we need to define it so that child components of nester route will be rendering there
+
+   To get the Parameters from url =>useParams hook
+
+  https://npmmirror.com/package/react-outlet#:~:text=React-Outlet%20provides%20two%20components  %20which%20aid%20in%20cross-component,a%201-1%20relationship%20between%20an%20Outlet%20and  %20Plug.
+  
+============================================================================================
+
+  React Forms
+
+  We need to take the data from the users
+  we need to validate the data
+  We need to send the data to the server
+
+  2 ways 
+  1. React normal way of taking the data and validation
+  2. Formik and Yup Library to handle form
+
+   https://www.w3schools.com/html/html_form_input_types.asp#:~:text=HTML%20Input%20Types.%20Here%20are%20the%20different%20input,%3Cinput%20type%3D%22date%22%3E.%20%3Cinput%20type%3D%22datetime-local%22%3E.%20%3Cinput%20type%3D%22email%22%3E.%20%3Cinput%20type%3D%22file%22%3E.
+
+
+  const initialValues = { email : "" , password: "",userName:""}
+  const [formValues,setFormValues] = useState(initialValues)
+
+  one function for one task 
+
+  1. to get the formValues
+  2. Validate them
+  3. if any errors report them
+  4. if no errors submit the form to server
+
+ Task: Take Phonenumber, Url and add custom validations
+
+==============================================================
+ 2 . use third party libraries for validation
+
+     https://formik.org/docs/overview
+
+     https://www.npmjs.com/package/yup
+
+  Yup is a javascript object schema validator 
+  Formik is a small library that helps us with 
+
+  1. Getting the values IN and OUT from form state
+  2. Based on the Error Message it will validate the form
+  3. handling form submission 
+
+  npm install formik yup
+
+  Formik will accept it will need 3 props
+
+  1.Initial Values
+  2.Validation Schema(Yup)
+  3.On Submit 
+
+Task : use Mobile Number , url ,age using formik and yup 
+==========================================================================
+ React Context Api 
+
+ we have a problem called Props Drilling for solving this React Context Api came into 
+ picture
+
+ => React context API will help in solving the props drilling problem
+
+ => React Context allows us to pass down and use the data to whatever component in     react without props
+
+ => In other words react context allows us to share the data across the component     more easily
+
+ When to use ? and how often we can use 
+
+  we should place data in React Context that doesnt need to be updated often 
+
+  Real time use cases
+
+  1. Theme data (light and dark mode)
+  2. Authenticated user data can be kept in context
+  3. Language specific data or locale specific data (internationalization)
+
+  React Context was not made to maintain the state management 
+  It was made to make consuming data easier
+
+  //Props drilling concept
+  function ReactContextApi(){
+    return (
+        <>
+        <Header theme={theme}/>
+        <Main theme={theme}/>
+        <SideBar theme={theme}/>
+        <Footer theme={theme}/>
+        </>
+    )
+  }
+  function Header({theme})
+  {
+    return (
+        <User theme={theme}/>
+        <Login theme={theme}/>
+        <Registration theme={theme}/>
+    )
+  }
+
+  1. Rendered Passed props
+  2. useContext
+
+Steps to use React Context 
+
+  1. Created context using createContext
+  2. Take our created context and wrap the provider around our component tree
+  3. put any value on our context provider using value props
+  4. Consumer(1.Rendered Passed props or 2. useContext)
+
+ React Developer Tools
+==================================================================
+
+  Components and Profiler
+==================================================================
+
+  How to Connect React js with Node js 
+  
+  will create 2 projects
+
+ 1. React(client)
+ 2. Node(Api)
+ 
+  React
+  npx create-react-app client
+
+  Node js
+  npx express-generator api
+
+  Default port number of react : 3000
+  Default port number of node :  3000
+
+  modify the port number : 2 options
+  1. modify the port number for nodejs project
+  2. modify the port for react js
+
+  => Goto api folder  => bin => open www file 15th modify the port number to 3002
+
+ => options how to modify the port no in react.go to package.json
+    scripts   "start": "set PORT=3003 && react-scripts start",
+
+ we will call http://localhost:3002/testAPI
+
+  Steps to write an API in Nodejs
+
+  1. express router (api)
+  2. Register that API 
+
+Task : string as output to react , add an object as response from api and display that in react
+
+  Mistakes usually we do 
+  1. Once the router is created , we need to register in app.js
+  2. As the backend api running(restart once the changes are done)
+  3. CORS issue 
+     npm install -S cors
+     import it in app.js file
+     and register it in app.js
+     restart the api project
+
+=============================================================================================
+
+ CSS GRID
+  how to create layouts for the projects
+
+  Figma
+  Adobe 
+  UI Mock up tools
+
+  height:100vh => all viewport need to occupy 
+
+  =========================================================================================
+  
+  fetch vs axios
+  fetch is a browser api 
+  axios is a third party library
+
+    fetch(`https://jsonplaceholder.typicode.com/`)
+        .then(response => response.json()) //Conversion
+        .then(json => setData(json))  //setting the data 
+
+  in axios we will be avoiding one then condition
+
+   axios.get(`https://jsonplaceholder.typicode.com/`)
+      .then(response => setData(response))
+
+   while receiving the data you need to convert it as json in fetch
+   while in axios we are avoiding that step as it is explicitly converting
+
+   2 differences
+
+   1.while receiving the data
+   2.while sending the data
+
+   fetch(url,{
+        method:"POST"
+        body: JSON.stringify(formData) //conversion
+   })
+   
+   axios({
+        url:"",
+        method:"POST",
+        data : {name:"savitha",age:26}
+   })
+   https://www.npmjs.com/package/axios
+
+  GET => to get data from server
+  POST => create resources
+  PUT => Updation of resources
+  DELETE => delete the resource
+
+  Task 1: Replace all fetch with axios
+  Task2 : create layout and make react components
+  
+ ======================================================================
+  React Styling
+  ---------------------
+  
+   <div class="App"> <!-- HTML -->
+   <div className="App"> <!-- React -->
+   
+     ways of styling in react
+	 1. CSS Stylesheet
+	 2. Internal Styling of Component(Inline)
+	 3. Styled Components
+	        third party library no need to apply styles manually 
+	 4. CSS Modules
+	     CSS generally css class names and animation names are scoped globally by default
+		 
+	 HTML
+	 <div style="background-color: red,color:white">
+	 
+	 Js
+	 <div style={{backgroundColor:'red',color:'white'}}
+	 
+	 first flower brace indicates javascript into jsx
+	 second flower brace represents the object literal
+	 
+	 3. https://styled-components.com/docs/basics#installation
+	    npm install --save styled-components
+		
+	Task 1 : Practise all the ways of Styling
+	Task 2: Explore the Style component documentation(how to pass props to styled component)
+	
+    Problem: Since css class names are globally scoped it will get overridden
+	
+	how to avoid this?
+	CSS modules will solve the css class names conflict override problem
+	A unique has code will be generated to classes
+===================================================================================
+ Redux 
+ ------------
+ Redux is a design pattern can use with Ui frameworks or libraries(Angular,Vue)
+ 
+ Design Pattern is a solution for common problem 
+ It is used to solve the problem of Global management of state or store
+ 
+ if you want to share some data,if the application is large it will be very difficult to manage
+ thats why we are going to redux 
+ 
+ Redux is not tightly coupled with react 
+	 
+   React Context was not made to maintain the state management 
+   but Redux was developed to maintain the state management
+   
+  we can have "N" no of states in redux
+  
+  when the state is not updated often we go for Context 
+  when the state is updated often we go for Redux
+  
+  There will be only one store or state at high level(not every component can modify)
+  they need to follow some rule
+  
+  only reducers can update the global state
+  global maintenance of store
+
+  https://redux.js.org/
+  
+  Redux Essential Principles
+  
+  1. Dont change the global store directly we need go through reducer function
+  2. Reducer function should be a pure function(old and give new state not modify)
+  
+  npm install redux react-redux @reduxjs/toolkit
+  
+  LoginReducer for storing login data
+  RegistrationReducer for storing registration data
+  
+  useDispatch => make use of actions from reducer1 
+  useSelector => subscription component(make use of state)
+  
+  Task: Add a payload,depending on payload change the state
+  
+============================================================================================
+ Reactjs Authentication with firebase
+ 
+  how to use the firebase 
+  1. Gives DB
+  2. we use firebase it gives the authentication
+  3. process is simple
+  
+  Task: Design form using bootstrap
+  Task: use any one of the additional login providers
+ 1. go to https://console.firebase.google.com/u/0/ and create project
+ 2. Goto Authentication on left nav (under Build)
+ 3. Enable Native Provider for email/password
+ 4. Create a firecloud database to store info 
+ 5. Create a new app by going to Project Settings
+ 6. After creating app => npm install firebase
+ 7. copy the content of firebase configurations
+ 8. create a file called Firebase.js under src folder and paste the firebase configuration code
+ 9 . import {getAuth} from 'firebase/auth'
+     const auth = getAuth(app);
+     export {auth}
+ 10. npm install react-firebase-hooks
+ 
+   host the application on firebase 
+   
+  Task : Modify the sign in button to sign out 
+  
+   https://react.rocks/ => try this projects out
+   https://reactjsexample.com/
+   
+   npm run build => it will give you production ready
+   build => small crunches of optimised folder
+   
+   we need build optimised folder for production ready deployments 
+   
+   run build in local and check at first then deploy it 
+   Run the production ready build in your local machine
+   =>serve -s build
+   
+   npm install -s serve
+   =>serve -s build -l 4000
+   
+   Steps to host the project
+   1. Under Build option => Hosting option
+      npm install -g firebase-tools
+	  
+	  
+    show how to build components for the project
+   
+   1.Reusable components
+   
+   1.Created a static Component
+   2. Made it as a generic component by adding props
+   3. I am passing dynamic data from Home.js
+   
+   
+   =>Interview Questions
+   =>Post call
+   =>Spring boot integration 
+   
+    POST,PUT 
+	
+	POST means we are trying to create a new resource(in Database)
+	PUT is updating
+	
+	HTTP Status Codes
+	
+	Informational responses (100â€“199)
+	Successful responses (200â€“299)
+	Redirection messages (300â€“399)
+	Client error responses (400â€“499)
+	Server error responses (500â€“599)
+	
+	Frontend Developer roles
+	
+	1. UX screen figma or adobe tools
+	2. understand business workflow
+	3. Dont assume anything
+	4. expected input and output
+	5. which browser it should be supported
+	6. which deviced responsive design
+	7. performance app
+	8. code review and refactoring code
+	
+	==================================================================
+	
+	Spring Boot integration 
+	
+	1.Java
+	IDE
+	
+	2. Set Env Variables
+	   set ENV_HOME set path till bin
+	        PATH set till jdk
+			
+	3. VS Code Extensions
+	   Extension Pack for Java
+	   Spring Boot Extension Pack
+	   
+	4.@CrossOrigin -- add as a dependency
+	
+	<React.StrictMode> => persist the state and it needs to get back
+	   
+	savi.ruthvik@gmail.com
+	
