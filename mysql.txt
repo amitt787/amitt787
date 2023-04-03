@@ -1,6 +1,93 @@
-
+        
 C:\xampp/mysql/bin
 
 mysql -u root -p -h localhost
 
+insert into studate values (4,'rohan',curdate(),curtime());
 
+
+forgien key
+
+
+create table orders(oid int not null auto_increment primary key,orderdate date,cid int,foreign key(cid) references customers(cid));
+
+
+
+create table customers(cid int not null auto_increment primary key,cust_name varchar(55),email varchar(55) amountint );
+
+
+
+
+
+
+select * from customers,orders where customers.cid=orders.cid;
+
+
+inner joins (select * from customers join orders   on customers.cid=orders.cid;)
+
+
+select * from stu_detail join stu_city  on stu_detail.id=stu_city.city_id;
+
+
+
+
+
+
+
+innser joins (select cust_name ,orderdate ,amount from customers join orders on customers.cid=orders.cid;)
+
+
+     
+
+select * from customers left join orders on customers.cid=orders.cid; (left joins)
+
+
+
+select * from customers right join  orders on customers.cid=orders.cid;(rightjoin)
+
+
+select * from customers cross join  orders on where customers.cid=orders.cid;
+
+
+
+select * from orders cross join  customers  where customers.cid=orders.cid;
+
+
+
+
+
+The CROSS JOIN keyword returns all records from both tables (table1 and table2).
+
+
+
+select * from orders right join customers on customers.cid=orders.cid;
+
+
+
+
+
+
+
+
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INNER JOIN: Returns records that have matching values in both tables
+LEFT JOIN: Returns all records from the left table, and the matched records from the right table
+RIGHT JOIN: Returns all records from the right table, and the matched records from the left table
+CROSS JOIN: Returns all records from both tables
